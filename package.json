@@ -12,3 +12,12 @@
   "author": "",
   "license": "MIT"
 }
+
+{
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo \"No build specified\"",
+    "test": "echo \"No tests specified\""
+  }
+}
+
