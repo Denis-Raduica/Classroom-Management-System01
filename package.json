@@ -1,0 +1,14 @@
+{
+  "name": "Classroom-Management-System",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo \"No build specified\""
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "",
+  "license": "MIT"
+}
