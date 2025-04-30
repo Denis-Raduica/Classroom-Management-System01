@@ -4,7 +4,7 @@ A platform that allows teachers to create and manage courses, share materials, a
 
 ## Features:
 - User Authentication
-- Course Creation & Enrollment
+- Course Creation & Enrollments
 - Assignment Submission & Grading
 - Announcements & Messaging
 - File Sharing (Course materials, assignments)
