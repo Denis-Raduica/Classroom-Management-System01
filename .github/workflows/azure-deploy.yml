@@ -1,4 +1,6 @@
 name: Deploy to Azure Web App
+permissions:
+  contents: read
 
 on:
   push:
