@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Classroom Management System</title>
+</head>
+<body>
+  <h1>Welcome to Classroom Management System</h1>
+  <p>Courses:</p>
+  <ul id="course-list"></ul>
+
+  <script>
+    fetch('/api/courses')
+      .then(response => response.json())
+      .then(courses => {
+        const list = document.getElementById('course-list');
+        courses.forEach(course => {
+          const li = document.createElement('li');
+          li.textContent = `${course.name} - ${course.description}`;
+          list.appendChild(li);
+        });
+      })
+      .catch(error => {
+        console.error('Failed to load courses:', error);
+      });
+  </script>
+</body>
+</html>
