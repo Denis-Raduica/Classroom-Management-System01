@@ -8,7 +8,7 @@
     "build": "echo \"No build specified\"",
     "test": "echo \"No tests specified\""
   },
-  "dependencies": {},
+  "dependencies": {"mongoose": "^7.0.0"},
   "devDependencies": {},
   "author": "",
   "license": "MIT"
