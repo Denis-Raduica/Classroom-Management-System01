@@ -21,6 +21,9 @@ var app = builder.Build();
 
 // Enable routing to controller endpoints
 app.MapControllers();
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 
 // Start the application
 app.Run();
